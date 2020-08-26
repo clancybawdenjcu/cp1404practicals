@@ -43,6 +43,5 @@ print(f"{year} {name} for about ${cost:,.2f}!")
 # 150
 
 number = 0
-for i in range(4):
-    print(f"{number:3}")
-    number += 50
+for i in range(0, 151, 50):
+    print(f"{i:3}")
