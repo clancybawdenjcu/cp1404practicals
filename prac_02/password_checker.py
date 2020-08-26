@@ -44,7 +44,7 @@ def is_valid_password(password):
             count_special += 1
     if count_upper == 0 or count_lower == 0 or count_digit == 0:
         return False
-    if SPECIAL_CHARS_REQUIRED is True:
+    if SPECIAL_CHARS_REQUIRED:
         if count_special == 0:
             return False
     return True
