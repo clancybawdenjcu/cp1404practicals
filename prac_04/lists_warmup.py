@@ -23,5 +23,3 @@ new_numbers = numbers[2:]
 
 # 4.
 9 in numbers
-
-print(new_numbers)
