@@ -10,12 +10,8 @@ def main():
             name = input("Name: ")
             name_email_dict[name] = email
         email = input("Enter email: ").strip()
-
-    # for name in name_email_dict:
-    #     print(f"{name} {name_email_dict[name]}")
-
     for name in name_email_dict:
-        print(name_email_dict.items())
+        print(f"{name} {name_email_dict[name]}")
 
 
 def get_name(email):
