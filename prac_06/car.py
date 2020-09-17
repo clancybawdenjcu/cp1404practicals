@@ -15,7 +15,7 @@ class Car:
         self.odometer = 0
 
     def __str__(self):
-        """Return a string representation of a Car"""
+        """Return a string representation of a Car."""
         return f"{self.name}, fuel={self.fuel}, odometer={self.odometer}"
 
     def add_fuel(self, amount):
