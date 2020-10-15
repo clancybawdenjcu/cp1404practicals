@@ -1,7 +1,3 @@
-"""
-CP1404/CP5632 Practical
-Car class
-"""
 from prac_08.car import Car
 from random import randint
 
