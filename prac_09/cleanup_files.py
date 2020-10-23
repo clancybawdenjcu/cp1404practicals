@@ -39,7 +39,6 @@ def get_fixed_filename(filename):
         new_word = word + x
         if x.islower():
             position = letter[0]
-            if
 
 
 main()
